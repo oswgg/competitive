@@ -1,0 +1,4 @@
+/home/oswgg/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/oswgg/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/oswgg/dev/oswgg/training -B /home/oswgg/dev/oswgg/training/cmake-build-debug
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/oswgg/dev/oswgg/training/cmake-build-debug
