@@ -36,7 +36,8 @@
 						18,
 						19,
 						20,
-						21
+						21,
+						22
 					]
 				}
 			],
@@ -72,7 +73,8 @@
 						18,
 						19,
 						20,
-						21
+						21,
+						22
 					]
 				}
 			],
@@ -90,6 +92,13 @@
 					"id" : "112A::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-112A-Debug-bf47095bb5e5599523a1.json",
 					"name" : "112A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "118A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-118A-Debug-fdf41b47fd68c6cb0429.json",
+					"name" : "118A",
 					"projectIndex" : 0
 				},
 				{
