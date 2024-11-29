@@ -784,6 +784,37 @@ build 69A: CXX_EXECUTABLE_LINKER__69A_Debug CMakeFiles/69A.dir/69A.cpp.o
   TARGET_FILE = 69A
   TARGET_PDB = 69A.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1742A
+
+
+#############################################
+# Order-only phony target for 1742A
+
+build cmake_object_order_depends_target_1742A: phony || .
+
+build CMakeFiles/1742A.dir/1742A.cpp.o: CXX_COMPILER__1742A_unscanned_Debug /Users/oswgg/dev/oswgg/training/1742A.cpp || cmake_object_order_depends_target_1742A
+  DEP_FILE = CMakeFiles/1742A.dir/1742A.cpp.o.d
+  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1742A.dir
+  OBJECT_FILE_DIR = CMakeFiles/1742A.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1742A
+
+
+#############################################
+# Link the executable 1742A
+
+build 1742A: CXX_EXECUTABLE_LINKER__1742A_Debug CMakeFiles/1742A.dir/1742A.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/1742A.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1742A
+  TARGET_PDB = 1742A.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -818,7 +849,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/oswgg/dev/oswgg/training/cmake-build-debug
 
-build all: phony watermelon long_words team bit 158A 50A 263A 112A 339A 281A 236A 266A 791A 1353B 546A 105505F 266B 200B 1472B 1709A 2038L 1A 118A 69A
+build all: phony watermelon long_words team bit 158A 50A 263A 112A 339A 281A 236A 266A 791A 1353B 546A 105505F 266B 200B 1472B 1709A 2038L 1A 118A 69A 1742A
 
 # =============================================================================
 # Built-in targets
